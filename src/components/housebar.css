@@ -1,0 +1,65 @@
+#house_section {
+    height: 100%;
+}
+#property_title {
+    text-align: left;
+    width: 100%;
+  }
+#main_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+}
+#house {
+    display: flex;
+    width: 17dvw;
+    height: 22dvw;
+    flex-direction: column;
+    font-family: 'MazzardH-Regular';
+    line-height: 85%;
+}
+#house_pic_box {
+    width: 17dvw;
+    height: 17dvw;
+    border-radius: 1em;
+    overflow: hidden;
+} 
+
+#house_pic {
+    height: 105%;
+    width: 105%;
+}
+#house_icon_box {
+    height: 2dvw;
+    width: 7dvw;
+}
+
+#house_icons {
+    height: 100%;
+    width: 100%;
+}
+#first_line {
+    margin-top: 2%;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    font-size: 0.8dvw;
+}
+#price {
+    text-align: left;
+    font-size: 1.2dvw;
+    margin-top: 3%;
+    font-family: 'MazzardH-Bold';
+}
+#button_box {
+    display: flex;
+    justify-content: left;
+    height: 2.5dvw;
+    width: 6dvw;
+    margin-top:1%;
+    font-family: 'MazzardH-Regular';
+    font-size: 1dvw;
+  }

@@ -1,0 +1,71 @@
+#button_bar {
+    display: flex;
+    justify-content: space-between;
+}
+#left_buttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 55%;
+}
+
+#right_buttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+}
+.filter_button {
+    color: black;
+    background-color: white;
+    border-radius: 1.5em;
+    border: 1.5px solid black;
+    font-size: 1dvw;
+    height: 3.5dvw;
+}
+#map_button {
+    background: black;
+}
+#map_box {
+    height: 2dvw;
+    width: 2dvw;
+}
+#map_icon {
+    height: 100%;
+    width: 100%;
+}
+
+#main_filter {
+    display: flex;
+    justify-content: space-between;
+    width: 9dvw;
+}
+
+#filter_box {
+    height: 2dvw;
+    width: 2dvw;
+}
+
+#filter_icon {
+    height: 100%;
+    width: 100%;
+}
+#filter_text {
+    margin-top: 5%;
+}
+#alert_filter {
+    display: flex;
+    justify-content: space-between;
+    width: 11dvw;
+}
+
+#alert_box {
+    height: 2dvw;
+    width: 2dvw;
+}
+
+#alert_icon {
+    height: 100%;
+    width: 100%;
+}
+#alert_text {
+    margin-top: 5%;
+}

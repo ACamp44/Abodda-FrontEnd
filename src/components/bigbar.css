@@ -1,0 +1,39 @@
+
+#section_box {
+    display:flex;
+    justify-content: space-between;
+}
+#big_title {
+    text-align: left;
+}
+#item_1 {
+    display: flex;
+    flex-direction: column;
+}
+#pic_box {
+    height: 32dvw;
+    width: 38dvw;
+}
+#business_pic {
+    height: 100%;
+    width: 100%;
+}
+#business_text {
+    display: flex;
+    justify-content: space-between;
+}
+#business_name {
+    font-family: 'MazzardH-Bold';
+    font-size:2dvw;
+}
+#rating {
+    display: flex;
+}
+#l1 {
+    text-align: left;
+}
+#l2 {
+    text-align: left;
+    font-family: 'MazzardH-Bold';
+}
+

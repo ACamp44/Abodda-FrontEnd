@@ -1,0 +1,124 @@
+#root {
+    padding: 0rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    color: black;
+  }
+  #navbar {
+    display: flex;
+    justify-content: center;
+  }
+  #main {
+    margin-left:10%;
+    margin-right:10%;
+  }
+  #content {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+  }
+  #spacer {
+    width: 100%;
+    height: 10dvh;
+  }
+  #search_section {
+    display: flex;
+    justify-content: center;
+  }
+  #top_search_text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    font-family: 'MazzardH-Regular';
+    font-size: 1.4dvw
+  }
+  #search_container{
+    width: 50%;
+    justify-content: center;
+    display:flex;
+    flex-direction:column;
+    color: black;
+  }
+  #search_main {
+    background-color: whitesmoke;
+    border-radius: 1.5em;
+    width: 100%;
+    height: 4dvw;
+    border-width: 0.5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #search_input {
+    background-color: whitesmoke;
+    border-radius: 1.5em;
+    border-style: none;
+    width: 100%;
+  }
+  
+  #button_image {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    right: 10%;
+  }
+  #intro_text {
+    margin-top: 2%;
+    font-family: 'MazzardH-Bold';
+    background: linear-gradient(to bottom, blue, purple);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  #join_us {
+    margin-bottom:3%
+  }
+  #main_pic_section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  #main_pic_box {
+    width: 80dvw;
+    height: 30dvw;
+  }
+  #main_pic {
+    height: 100%;
+    width: 100%;
+  }
+  #property_section {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+  }
+  
+  #button_box {
+    display: flex;
+    justify-content: left;
+    height: 2.5dvw;
+    width: 6dvw;
+    margin-top:1%;
+    font-family: 'MazzardH-Regular';
+    font-size: 1dvw;
+  }
+  
+  #bigbar {
+    margin-top: 3%;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  
